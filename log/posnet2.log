@@ -1,0 +1,134 @@
+2012-06-28 14:54:36,460 [main            ] [INFO ] c.c.q.m.BootStrap           - Home directory: D:\posnetv2
+2012-06-28 14:54:36,460 [main            ] [DEBUG] c.c.q.c.ConfigReader        - Home directory is set to D:\posnetv2
+2012-06-28 14:54:36,476 [main            ] [DEBUG] c.c.q.c.ConfigReader        - Configuration subdirectory is set to conf
+2012-06-28 14:54:36,476 [main            ] [DEBUG] c.c.q.c.ConfigReader        - Configuration directory is set to D:\posnetv2\conf
+2012-06-28 14:54:36,476 [main            ] [DEBUG] c.c.q.c.ConfigReader        - Config file: D:\posnetv2\conf\posnet.ini
+2012-06-28 14:54:36,476 [main            ] [DEBUG] c.c.q.c.ConfigReader        - Reading configuration file D:\posnetv2\conf\posnet.ini
+2012-06-28 14:54:36,476 [main            ] [DEBUG] c.c.q.c.ConfigReader        - - D:\posnetv2\conf\posnet.ini is an .ini file, load using PropertiesConfiguration.
+2012-06-28 14:54:36,507 [main            ] [DEBUG] c.c.PropertiesConfiguration - FileName set to posnet.ini
+2012-06-28 14:54:36,507 [main            ] [DEBUG] c.c.PropertiesConfiguration - Base path set to D:\posnetv2\conf
+2012-06-28 14:54:36,507 [main            ] [DEBUG] o.a.c.c.ConfigurationUtils  - ConfigurationUtils.locate(): base is D:\posnetv2\conf, name is posnet.ini
+2012-06-28 14:54:36,507 [main            ] [DEBUG] o.a.c.c.DefaultFileSystem   - Could not locate file posnet.ini at D:\posnetv2\conf: unknown protocol: d
+2012-06-28 14:54:36,507 [main            ] [DEBUG] o.a.c.c.ConfigurationUtils  - Loading configuration from the path D:\posnetv2\conf\posnet.ini
+2012-06-28 14:54:36,554 [main            ] [DEBUG] o.a.c.c.ConfigurationUtils  - ConfigurationUtils.locate(): base is D:\posnetv2\conf, name is dispatcher.ini
+2012-06-28 14:54:36,554 [main            ] [DEBUG] o.a.c.c.DefaultFileSystem   - Could not locate file dispatcher.ini at D:\posnetv2\conf: unknown protocol: d
+2012-06-28 14:54:36,554 [main            ] [DEBUG] o.a.c.c.ConfigurationUtils  - Loading configuration from the path D:\posnetv2\conf\dispatcher.ini
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - System configuration:
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - server.port: 1234
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - server.client_max_idle_time: 20
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - server.session.timeout_check_interval: 10
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - server.session.client_timeout: 210
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - server.disable_checksum_check: 0
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - server.service_handler.thread_pool_size: 20
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - firmware.location: D:\posnetv2\posnet2-mgmtui\firmware
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.hibernate.show_sql: [true, true]
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.hibernate.hbm2ddl.auto: false
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.ext.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.user: root
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.password: 167118
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.driver: com.mysql.jdbc.Driver
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.url: jdbc:mysql://localhost/posnet?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.ext.hibernate.connection.provider_class: org.hibernate.connection.C3P0ConnectionProvider
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.ext.hibernate.c3p0.minPoolSize: 5
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.ext.hibernate.c3p0.maxPoolSize: 20
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.ext.hibernate.c3p0.maxIdleTime: 1800
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.ext.hibernate.c3p0.testConnectionOnCheckout: true
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.ext.hibernate.c3p0.maxStatements: 50
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - db.ext.hibernate.c3p0.maxStatementsPerConnection: 10
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - qq.groupbuy.url.groupBuyingSearchGroupon: http://localhost:7070/testdata/TuanSearchListVO.xml
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - qq.groupbuy.url.groupBuyingValidationUrl: http://localhost:7070/testdata/TuanValidateResultVO.xml
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - qq.groupbuy.url.groupBuyingUnbindPosUrl: http://localhost:7070/testdata/TuanUnbindVO.xml
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - txserver.key: JXTPOS
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - qq.meishi.wsapi.host: localhost:7070
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - qq.meishi.wsapi.url: http://localhost:7070/qq-meishi/data
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - qq.meishi.wsapi.secretKey: NDA2ZTkwOTExZjlkZDY3ZTIxMTU1OTY0NmVlYzVmY2Q=
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.1.handler: com.chinarewards.qqgbvpn.main.protocol.handler.SearchCommandHandler
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.1.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.SearchBodyMessageCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.2.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.SearchBodyMessageResponseCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.3.handler: com.chinarewards.qqgbvpn.main.protocol.handler.ValidateCommandHandler
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.3.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.ValidateBodyMessageCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.4.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.ValidateBodyMessageResponseCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.5.handler: com.chinarewards.qqgbvpn.main.protocol.handler.InitCommandHandler
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.5.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.InitMessageCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.6.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.InitMessageResponseCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.7.handler: com.chinarewards.qqgbvpn.main.protocol.handler.LoginCommandHandler
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.7.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.LoginMessageCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.8.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.LoginMessageResponseCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.9.handler: com.chinarewards.qqgbvpn.main.protocol.handler.BindCommandHandler
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.9.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.LoginMessageCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.10.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.LoginMessageResponseCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.11.handler: com.chinarewards.qqgbvpn.main.protocol.handler.ValidationCallbackHandler
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.11.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.ValidationCallbackCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.12.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.ValidationCallbackResponseCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.13.handler: com.chinarewards.qqgbvpn.main.protocol.handler.FirmwareUpgradeRequestCommandHandler
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.13.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.FirmwareRequestMessageCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.14.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.FirmwareResponseMessageCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.15.handler: com.chinarewards.qqgbvpn.main.protocol.handler.GetFirmwareFragmentHandler
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.15.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.GetFirmwareFragmentRequestMessageCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.16.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.GetFirmwareFragmentResponseMessageCodec
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.17.handler: com.chinarewards.qqgbvpn.main.protocol.handler.FirmwareUpDoneHandler
+2012-06-28 14:54:36,569 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.17.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.FirmwareUpDoneRequestCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.18.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.FirmwareUpDoneResponseCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.19.handler: com.chinarewards.qqgbvpn.main.protocol.handler.HuaxiaSearchCommandHandler
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.19.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.HuaxiaSearchBodyMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.20.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.HuaxiaSearchBodyMessageResponseCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.21.handler: com.chinarewards.qqgbvpn.main.protocol.handler.HuaxiaConfirmCommandHandler
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.21.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.HuaxiaConfirmBodyMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.22.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.HuaxiaConfirmBodyMessageResponseCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.23.handler: com.chinarewards.qqgbvpn.main.protocol.handler.HuaxiaAckCommandHandler
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.23.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.HuaxiaAckBodyMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.24.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.HuaxiaAckBodyMessageResponseCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.25.handler: com.chinarewards.qqgbvpn.main.protocol.handler.PosEchoCommandHandler
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.25.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.PosEchoCommandRequestMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.26.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.PosEchoCommandResponseMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.27.handler: com.chinarewards.qqgbvpn.main.protocol.handler.ValidateCommandHandler2
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.27.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.ValidateBodyMessageCodec2
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.28.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.ValidateBodyMessageResponseCodec2
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.101.handler: com.chinarewards.qqgbvpn.main.protocol.handler.QQMeishiCommandHandler
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.101.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.QQMeishiBodyMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.102.codec: com.chinarewards.qqgbvpn.main.protocol.socket.mina.codec.QQMeishiBodyMessageResponseCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.201.handler: com.chinarewards.qqadidas.main.protocol.handler.ReceiveGiftCommandHandler
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.201.codec: com.chinarewards.qqadidas.main.protocol.socket.mina.codec.ReceiveGiftMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.202.codec: com.chinarewards.qqadidas.main.protocol.socket.mina.codec.ReceiveGiftResponseMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.203.handler: com.chinarewards.qqadidas.main.protocol.handler.PrivilegeExchangeCommandHandler
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.203.codec: com.chinarewards.qqadidas.main.protocol.socket.mina.codec.PrivilegeExchangeMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.204.codec: com.chinarewards.qqadidas.main.protocol.socket.mina.codec.PrivilegeExchangeResponseMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.110.handler: com.chinarewards.timeserver.main.protocol.handler.TimeServerHandler
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.110.codec: com.chinarewards.timeserver.main.protocol.socket.mina.codec.TimeServerMessageCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - msg.111.codec: com.chinarewards.timeserver.main.protocol.socket.mina.codec.TimeServerMessageResponseCodec
+2012-06-28 14:54:36,585 [main            ] [DEBUG] c.c.q.m.BootStrap           - - qq.vip.adidas.des.secretkey: qqadidas
+2012-06-28 14:54:36,585 [main            ] [INFO ] c.c.q.m.BootStrap           - Bootstrapping...
+2012-06-28 14:54:36,585 [main            ] [INFO ] c.c.q.m.BootStrap           - Initializing dependency injection environment...
+2012-06-28 14:54:36,616 [main            ] [INFO ] c.c.q.m.BootStrap           - Creating Guice injector. If it is stucked, there is a chance the database is down.
+2012-06-28 14:54:36,788 [main            ] [DEBUG] .q.m.p.ServiceHandlerModule - Finished configuration
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.SearchCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.QQMeishiCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.ValidateCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqadidas.main.protocol.handler.ReceiveGiftCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.InitCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqadidas.main.protocol.handler.PrivilegeExchangeCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.LoginCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.timeserver.main.protocol.handler.TimeServerHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.BindCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.ValidationCallbackHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.FirmwareUpgradeRequestCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.GetFirmwareFragmentHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.FirmwareUpDoneHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.HuaxiaSearchCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.HuaxiaConfirmCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.HuaxiaAckCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.PosEchoCommandHandler to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Binding class class com.chinarewards.qqgbvpn.main.protocol.handler.ValidateCommandHandler2 to Guice
+2012-06-28 14:54:36,788 [main            ] [DEBUG] g.ServiceHandlerGuiceModule - Configuration completed
+2012-06-28 14:54:37,147 [main            ] [INFO ] c.c.q.m.BootStrap           - Bootstrapping completed
+2012-06-28 14:54:37,147 [main            ] [DEBUG] dule$ServiceMappingProvider - Returning ServiceMapping
+2012-06-28 14:54:37,147 [main            ] [DEBUG] $$EnhancerByGuice$$22e9f5a5 - ServiceHandlerObjectFactory is com.chinarewards.qqgbvpn.main.protocol.guice.GuiceServiceHandlerObjectFactory@68c26c
+2012-06-28 14:54:39,677 [main            ] [DEBUG] c.c.q.m.PosServer           - idleTime=20
+2012-06-28 14:54:39,755 [main            ] [DEBUG] c.c.q.m.PosServer           -  monitor port =9999
+2012-06-28 14:54:39,755 [main            ] [DEBUG] c.c.q.m.PosServer           -  JMXServiceURL =service:jmx:rmi:///jndi/rmi://localhost:9999/jmxrmi
+2012-06-28 14:54:39,771 [main            ] [INFO ] c.c.q.m.PosServer           - Client idle timeout set to 20 seconds
+2012-06-28 14:54:39,787 [main            ] [DEBUG] c.c.q.m.PosServer           - config server.session.timeout_check_interval=10
+2012-06-28 14:54:39,787 [main            ] [INFO ] c.c.q.m.PosServer           - Server running, listening on 1234
+2012-06-28 14:54:39,818 [main            ] [INFO ] c.c.q.m.r.RMIRegistry       - Start listener rmi server, port=9999
+2012-06-28 14:54:41,067 [main            ] [INFO ] c.c.q.m.r.RMIRegistry       - no existing RMI registry found on port 9999, creating...
+2012-06-28 14:54:41,067 [main            ] [INFO ] c.c.q.m.r.RMIRegistry       - RMI server create success.
